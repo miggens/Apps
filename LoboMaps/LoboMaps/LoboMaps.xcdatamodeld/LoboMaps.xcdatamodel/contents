@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="13F34" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="DefaultLocation" representedClassName="DefaultLocation" syncable="YES">
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="nickname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Downloads" representedClassName="Downloads" syncable="YES">
+        <attribute name="bluePhonesNorth" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="bluePhonesSouth" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="computerPods" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="dining" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="gyms" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="healthyVending" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="lactationStation" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="libraries" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="mapBuildings" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="meteredParking" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="nextSchedule" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="otherCampuses" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="placesOfInterest" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="restrooms" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="shuttles" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="walkingRoutes" optional="YES" attributeType="Boolean" syncable="YES"/>
+    </entity>
+    <entity name="Location" representedClassName="Location" syncable="YES">
+        <attribute name="abbr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="buildingNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="campus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="keywords" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="snippet" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DefaultLocation" positionX="-54" positionY="-9" width="128" height="105"/>
+        <element name="Downloads" positionX="-36" positionY="72" width="128" height="285"/>
+        <element name="Location" positionX="-63" positionY="-18" width="128" height="195"/>
+    </elements>
+</model>
